@@ -28,7 +28,7 @@ export default function Navbar() {
         <nav className="sticky z-50 flex justify-center pointer-events-none top-4">
         {/* floating navbar wrapper */}
         <div
-            className="flex items-center justify-between w-full max-w-5xl px-6 py-3 mx-4 shadow-md pointer-events-auto rounded-4xl bg-white/70 backdrop-blur"
+            className="flex items-center justify-between w-full px-8 py-3 mx-2 shadow-md pointer-events-auto max-w-7xl rounded-4xl bg-white/70 backdrop-blur"
         >
             {/* Brand */}
             <Link href="/" className="text-2xl font-semibold text-gray-800">
